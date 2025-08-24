@@ -207,3 +207,9 @@ marimo/_lsp/
 __marimo__/
 
 projectflow.txt
+cred.txt
+notebooks/
+local_s3/
+
+data/
+models/
