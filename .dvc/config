@@ -1,4 +1,4 @@
 [core]
-    remote = myremote
-['remote "myremote"']
+    remote = myremote2
+['remote "myremote2"']
     url = s3://complaints-datagrid-285233622296
