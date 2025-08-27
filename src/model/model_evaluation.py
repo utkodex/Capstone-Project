@@ -31,8 +31,8 @@ mlflow.set_tracking_uri(f'{dagshub_url}/{repo_owner}/{repo_name}.mlflow')
 
 # Below code block is for local use
 # -------------------------------------------------------------------------------------
-mlflow.set_tracking_uri('https://dagshub.com/utkodex/Capstone-Project.mlflow')
-dagshub.init(repo_owner='utkodex', repo_name='Capstone-Project', mlflow=True)
+# mlflow.set_tracking_uri('https://dagshub.com/utkodex/Capstone-Project.mlflow')
+# dagshub.init(repo_owner='utkodex', repo_name='Capstone-Project', mlflow=True)
 # -------------------------------------------------------------------------------------
 
 
