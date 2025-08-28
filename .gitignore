@@ -212,3 +212,6 @@ notebooks/
 local_s3/
 
 models/
+
+eksctl.exe
+eksctl.zip
