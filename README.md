@@ -1,5 +1,32 @@
 # 🚀 Capstone Project: End-to-End ML Deployment with MLOps
 
+```mermaid
+flowchart TD
+    subgraph DataPipeline[Data & Model Pipeline]
+        A[Data Sources] --> B[Data Ingestion]
+        B --> C[Preprocessing & Feature Engineering]
+        C --> D[Model Training]
+        D --> E[Model Evaluation]
+        E --> F[Model Registry]
+    end
+
+    F --> G[DVC + S3 Storage]
+    D --> H[MLFlow + Dagshub Tracking]
+
+    subgraph Deployment[Deployment Pipeline]
+        I[Flask API] --> J[Docker Container]
+        J --> K[GitHub Actions CI/CD]
+        K --> L[AWS ECR]
+        L --> M[AWS EKS Cluster]
+        M --> N[End Users]
+    end
+
+    subgraph Monitoring[Monitoring & Observability]
+        M --> O[Prometheus Metrics]
+        O --> P[Grafana Dashboards]
+    end
+
+
 ---
 
 ## 📑 Index
@@ -177,10 +204,3 @@ The deployed model is served using a **Flask API** running on **AWS EKS** with a
 * **Utkarsh Sinha** – AI Engineer & Developer
 
 ---
-
-```
-
----
-
-👉 Would you like me to also **generate the architecture diagram in Mermaid** (so it renders directly in GitHub instead of only images)?
-```
