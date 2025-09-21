@@ -25,7 +25,7 @@ flowchart TD
         M --> O[Prometheus Metrics]
         O --> P[Grafana Dashboards]
     end
-
+```
 
 ---
 
