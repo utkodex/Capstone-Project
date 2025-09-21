@@ -1,11 +1,3 @@
-Here’s a polished `README.md` draft for your **Capstone Project**.
-It’s structured with an index, clickable navigation, images, a tools/technologies table, and clear explanations.
-
-You can extend it later with your own screenshots (replace placeholders with actual image paths).
-
----
-
-````markdown
 # 🚀 Capstone Project: End-to-End ML Deployment with MLOps
 
 <p align="center">
@@ -101,7 +93,6 @@ The deployed model is served using a **Flask API** running on **AWS EKS** with a
   ```bash
   docker build -t capstone-app:latest .
   docker run -p 8888:5000 -e CAPSTONE_TEST=<your_token> capstone-app:latest
-````
 
 * Pushed image to DockerHub.
 
