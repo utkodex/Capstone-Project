@@ -1,9 +1,5 @@
 # 🚀 Capstone Project: End-to-End ML Deployment with MLOps
 
-<p align="center">
-  <img src="assets/project-architecture.png" alt="Project Architecture" width="800"/>
-</p>
-
 ---
 
 ## 📑 Index
@@ -31,10 +27,6 @@ This project demonstrates a **complete MLOps pipeline** – from data ingestion 
 It integrates **MLFlow, DVC, Docker, AWS (ECR & EKS), and monitoring tools (Prometheus & Grafana)** into a single workflow.
 
 The deployed model is served using a **Flask API** running on **AWS EKS** with automated CI/CD pipelines.
-
-<p align="center">
-  <img src="assets/mlops-flow.png" alt="MLOps Pipeline" width="700"/>
-</p>
 
 ---
 
@@ -135,10 +127,6 @@ The deployed model is served using a **Flask API** running on **AWS EKS** with a
   * Request count
   * Error rates
   * Model performance
-
-<p align="center">
-  <img src="assets/grafana-dashboard.png" alt="Grafana Dashboard" width="800"/>
-</p>
 
 ---
 
